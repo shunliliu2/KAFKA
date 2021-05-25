@@ -10,7 +10,7 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>idfpocr</module>
+        <module>idfp</module>
     </modules>
 
 </project>
