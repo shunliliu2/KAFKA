@@ -1,10 +1,10 @@
-package com.hxocr.idfpocr;
+package com.hxocr.idfp;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class IdfpocrApplicationTests {
+class IdfpApplicationTests {
 
     @Test
     void contextLoads() {
