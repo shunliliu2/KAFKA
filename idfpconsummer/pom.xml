@@ -9,13 +9,13 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.hxocr</groupId>
-    <artifactId>idfp</artifactId>
+    <artifactId>idfpconsummer</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>idfp</name>
+    <name>idfpconsummer</name>
     <description>Demo project for Spring Boot</description>
     <properties>
         <java.version>1.8</java.version>
-        <spring-cloud.version>Greenwich.SR3</spring-cloud.version>
+        <spring-cloud.version>Hoxton.SR3</spring-cloud.version>
     </properties>
     <dependencies>
         <dependency>
@@ -23,15 +23,27 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
-        <dependency>
-            <groupId>com.alibaba.cloud</groupId>
-            <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
-            <version>2.0.3.RELEASE</version>
-        </dependency>
 
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+            <version>2.0.3.RELEASE</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>com.alibaba.nacos</groupId>
+                    <artifactId>nacos-client</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba.nacos</groupId>
+            <artifactId>nacos-client</artifactId>
+            <version>2.0.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-ribbon</artifactId>
             <version>2.0.3.RELEASE</version>
         </dependency>
 
@@ -64,8 +76,16 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-                <version>2.1.8.RELEASE</version>
+                <configuration>
+                    <excludes>
+                        <exclude>
+                            <groupId>org.projectlombok</groupId>
+                            <artifactId>lombok</artifactId>
+                        </exclude>
+                    </excludes>
+                </configuration>
             </plugin>
         </plugins>
     </build>
+
 </project>

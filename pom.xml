@@ -10,7 +10,10 @@
     <packaging>pom</packaging>
 
     <modules>
+        <module>frontsystem</module>
+        <module>frontsystemservice</module>
         <module>idfp</module>
+        <module>idfpconsummer</module>
     </modules>
 
 </project>
