@@ -1,4 +1,4 @@
-package com.hxocr.idfpconsummer;
+package com.hxocr.idfpserver;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
@@ -14,7 +14,7 @@ import org.springframework.web.client.RestTemplate;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-public class IdfpconsummerApplication {
+public class IdfpServerApplication {
 
     @LoadBalanced
     @Bean
@@ -23,7 +23,7 @@ public class IdfpconsummerApplication {
     }
 
     public static void main(String[] args) {
-        SpringApplication.run(IdfpconsummerApplication.class, args);
+        SpringApplication.run(IdfpServerApplication.class, args);
     }
 
     @RestController

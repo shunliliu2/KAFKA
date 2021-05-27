@@ -1,10 +1,10 @@
-package com.hxocr.idfpconsummer;
+package com.hxocr.idfpserver;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class IdfpconsummerApplicationTests {
+class IdfpServerApplicationTests {
 
     @Test
     void contextLoads() {

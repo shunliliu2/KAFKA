@@ -10,8 +10,8 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>idfp</module>
-        <module>idfpconsummer</module>
+        <module>idfpprovider</module>
+        <module>idfpserver</module>
     </modules>
 
 </project>
