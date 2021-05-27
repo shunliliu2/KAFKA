@@ -1,4 +1,4 @@
-package com.hxocr.idfp;
+package com.hxocr.idfpprovider;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

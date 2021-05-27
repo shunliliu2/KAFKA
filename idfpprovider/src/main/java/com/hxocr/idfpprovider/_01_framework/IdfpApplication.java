@@ -1,4 +1,4 @@
-package com.hxocr.idfp;
+package com.hxocr.idfpprovider._01_framework;
 
 
 import org.springframework.boot.SpringApplication;

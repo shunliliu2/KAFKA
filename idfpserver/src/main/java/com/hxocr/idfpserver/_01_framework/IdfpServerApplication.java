@@ -1,4 +1,4 @@
-package com.hxocr.idfpserver;
+package com.hxocr.idfpserver._01_framework;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
