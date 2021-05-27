@@ -13,12 +13,6 @@ import org.springframework.web.client.RestTemplate;
 @RestController
 public class IdfpController {
 
-    @LoadBalanced
-    @Bean
-    public RestTemplate restTemplate() {
-        return new RestTemplate();
-    }
-
     @Autowired
     RestTemplate restTemplate;
 
