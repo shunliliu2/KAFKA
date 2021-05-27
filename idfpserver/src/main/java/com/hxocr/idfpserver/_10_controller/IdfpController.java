@@ -9,25 +9,24 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
+
 @RestController
 public class IdfpController {
 
     @LoadBalanced
     @Bean
-    public RestTemplate idfpRestTemplate() {
+    public RestTemplate restTemplate() {
         return new RestTemplate();
     }
 
-    private final RestTemplate idfpRestTemplate;
-
     @Autowired
-    public IdfpController(RestTemplate restTemplate) {
-        this.idfpRestTemplate = restTemplate;
-    }
+    RestTemplate restTemplate;
 
-    @RequestMapping(value = "/echo1/{str}", method = RequestMethod.GET)
+    @RequestMapping(value = "/echo/{str}", method = RequestMethod.GET)
     public String echo(@PathVariable String str) {
-        return idfpRestTemplate.getForObject("http://idfp-provider/echo/" + str, String.class);
+        return restTemplate.getForObject("http://idfp-provider/echo/" + str, String.class);
 
     }
+
+
 }
