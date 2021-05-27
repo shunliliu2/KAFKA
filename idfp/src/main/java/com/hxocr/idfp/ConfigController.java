@@ -10,14 +10,14 @@ import org.springframework.web.bind.annotation.RestController;
 @RefreshScope
 public class ConfigController {
 
-    @Value("${useLocalCache:false}")
-    private boolean useLocalCache;
+    @Value("${bussinessName:zzzp}")
+    private String bussinessName;
 
     /**
      * http://localhost:8080/config/get
      */
     @RequestMapping("/get")
-    public boolean get() {
-        return useLocalCache;
+    public String get() {
+        return bussinessName;
     }
 }
