@@ -1,0 +1,25 @@
+server:
+  port: 8082 #tomcat端口号
+###  FTP
+hostname: 192.168.1.5
+port: 21
+username: root
+password: root
+fileName: /
+localPath: /opt/server/data/
+
+#server:
+#  port: 8085 #tomcat端口号
+####  FTP
+#hostname: 172.25.1.195
+#port: 21
+#username: btvftp1
+#password: BtvIptv1
+#fileName: /
+#localPath: D:/ftp/
+
+
+
+
+
+

@@ -1,0 +1,52 @@
+2021-09-07 22:01:26 [Thread-9] [INFO] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-09-07 22:01:39 [main] [INFO] Starting SoapApplication on 192.168.1.8 with PID 74071 (/Users/4paradigm/Downloads/spring-web-services-master/SOPA/target/classes started by 4paradigm in /Users/4paradigm/Downloads/spring-web-services-master/SOPA)
+2021-09-07 22:01:39 [main] [INFO] No active profile set, falling back to default profiles: default
+2021-09-07 22:01:40 [main] [INFO] Tomcat initialized with port(s): 8082 (http)
+2021-09-07 22:01:40 [main] [INFO] Initializing ProtocolHandler ["http-nio-8082"]
+2021-09-07 22:01:40 [main] [INFO] Starting service [Tomcat]
+2021-09-07 22:01:40 [main] [INFO] Starting Servlet engine: [Apache Tomcat/9.0.16]
+2021-09-07 22:01:40 [main] [INFO] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/4paradigm/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2021-09-07 22:01:40 [main] [INFO] Initializing Spring embedded WebApplicationContext
+2021-09-07 22:01:40 [main] [INFO] Root WebApplicationContext: initialization completed in 1028 ms
+2021-09-07 22:01:41 [main] [INFO] Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-07 22:01:41 [main] [INFO] Starting ProtocolHandler ["http-nio-8082"]
+2021-09-07 22:01:41 [main] [INFO] Tomcat started on port(s): 8082 (http) with context path '/SOAP'
+2021-09-07 22:01:41 [main] [INFO] Started SoapApplication in 2.349 seconds (JVM running for 3.226)
+2021-09-07 22:01:44 [http-nio-8082-exec-2] [INFO] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-07 22:01:44 [http-nio-8082-exec-2] [INFO] Initializing Servlet 'dispatcherServlet'
+2021-09-07 22:01:44 [http-nio-8082-exec-2] [INFO] Completed initialization in 11 ms
+2021-09-07 22:08:16 [Thread-7] [INFO] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-09-07 22:08:27 [main] [INFO] Starting SoapApplication on 192.168.1.8 with PID 74499 (/Users/4paradigm/Downloads/spring-web-services-master/SOPA/target/classes started by 4paradigm in /Users/4paradigm/Downloads/spring-web-services-master/SOPA)
+2021-09-07 22:08:27 [main] [INFO] No active profile set, falling back to default profiles: default
+2021-09-07 22:08:28 [main] [INFO] Tomcat initialized with port(s): 8082 (http)
+2021-09-07 22:08:28 [main] [INFO] Initializing ProtocolHandler ["http-nio-8082"]
+2021-09-07 22:08:28 [main] [INFO] Starting service [Tomcat]
+2021-09-07 22:08:28 [main] [INFO] Starting Servlet engine: [Apache Tomcat/9.0.16]
+2021-09-07 22:08:28 [main] [INFO] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/4paradigm/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2021-09-07 22:08:28 [main] [INFO] Initializing Spring embedded WebApplicationContext
+2021-09-07 22:08:28 [main] [INFO] Root WebApplicationContext: initialization completed in 1144 ms
+2021-09-07 22:08:29 [main] [INFO] Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-07 22:08:29 [main] [INFO] Starting ProtocolHandler ["http-nio-8082"]
+2021-09-07 22:08:29 [main] [INFO] Tomcat started on port(s): 8082 (http) with context path '/SOAP'
+2021-09-07 22:08:29 [main] [INFO] Started SoapApplication in 2.535 seconds (JVM running for 3.304)
+2021-09-07 22:08:36 [http-nio-8082-exec-1] [INFO] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-07 22:08:36 [http-nio-8082-exec-1] [INFO] Initializing Servlet 'dispatcherServlet'
+2021-09-07 22:08:36 [http-nio-8082-exec-1] [INFO] Completed initialization in 15 ms
+2021-09-07 22:12:51 [Thread-7] [INFO] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-09-07 22:13:02 [main] [INFO] Starting SoapApplication on 192.168.1.8 with PID 74778 (/Users/4paradigm/Downloads/spring-web-services-master/SOPA/target/classes started by 4paradigm in /Users/4paradigm/Downloads/spring-web-services-master/SOPA)
+2021-09-07 22:13:02 [main] [INFO] No active profile set, falling back to default profiles: default
+2021-09-07 22:13:03 [main] [INFO] Tomcat initialized with port(s): 8082 (http)
+2021-09-07 22:13:03 [main] [INFO] Initializing ProtocolHandler ["http-nio-8082"]
+2021-09-07 22:13:03 [main] [INFO] Starting service [Tomcat]
+2021-09-07 22:13:03 [main] [INFO] Starting Servlet engine: [Apache Tomcat/9.0.16]
+2021-09-07 22:13:03 [main] [INFO] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/4paradigm/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2021-09-07 22:13:04 [main] [INFO] Initializing Spring embedded WebApplicationContext
+2021-09-07 22:13:04 [main] [INFO] Root WebApplicationContext: initialization completed in 1146 ms
+2021-09-07 22:13:04 [main] [INFO] Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-07 22:13:04 [main] [INFO] Starting ProtocolHandler ["http-nio-8082"]
+2021-09-07 22:13:04 [main] [INFO] Tomcat started on port(s): 8082 (http) with context path '/SOAP'
+2021-09-07 22:13:04 [main] [INFO] Started SoapApplication in 2.51 seconds (JVM running for 3.267)
+2021-09-07 22:13:37 [http-nio-8082-exec-1] [INFO] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-07 22:13:37 [http-nio-8082-exec-1] [INFO] Initializing Servlet 'dispatcherServlet'
+2021-09-07 22:13:37 [http-nio-8082-exec-1] [INFO] Completed initialization in 5 ms
+2021-09-07 22:14:02 [Thread-7] [INFO] Shutting down ExecutorService 'applicationTaskExecutor'

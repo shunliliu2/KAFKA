@@ -1,0 +1,7 @@
+2021-09-25 08:30:02 [kafka-coordinator-heartbeat-thread | g1] [INFO] [Consumer clientId=consumer-5, groupId=g1] Group coordinator 192.168.1.2:9092 (id: 2147483647 rack: null) is unavailable or invalid, will attempt rediscovery
+2021-09-25 08:30:02 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [INFO] [Consumer clientId=consumer-3, groupId=g1] Error sending fetch request (sessionId=312813716, epoch=71) to node 0: org.apache.kafka.common.errors.DisconnectException.
+2021-09-25 08:30:02 [kafka-coordinator-heartbeat-thread | g1] [INFO] [Consumer clientId=consumer-3, groupId=g1] Group coordinator 192.168.1.2:9092 (id: 2147483647 rack: null) is unavailable or invalid, will attempt rediscovery
+2021-09-25 08:30:02 [kafka-coordinator-heartbeat-thread | g1] [INFO] [Consumer clientId=consumer-4, groupId=g1] Group coordinator 192.168.1.2:9092 (id: 2147483647 rack: null) is unavailable or invalid, will attempt rediscovery
+2021-09-25 08:30:03 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] [INFO] [Consumer clientId=consumer-4, groupId=g1] Discovered group coordinator 192.168.1.2:9092 (id: 2147483647 rack: null)
+2021-09-25 08:30:03 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [INFO] [Consumer clientId=consumer-3, groupId=g1] Discovered group coordinator 192.168.1.2:9092 (id: 2147483647 rack: null)
+2021-09-25 08:30:03 [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] [INFO] [Consumer clientId=consumer-5, groupId=g1] Discovered group coordinator 192.168.1.2:9092 (id: 2147483647 rack: null)

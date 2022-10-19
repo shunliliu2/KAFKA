@@ -1,0 +1,6 @@
+2021-09-07 21:40:15 [http-nio-8082-exec-1] [ERROR] CSPID和LSPID不正确
+2021-09-07 21:40:49 [task-1] [ERROR] FTP连接失败
+2021-09-07 21:40:49 [task-1] [ERROR] java.net.ConnectException: Connection refused (Connection refused)
+2021-09-07 21:40:49 [task-1] [ERROR] 文件未同步成功
+2021-09-07 21:40:49 [task-1] [ERROR] org.dom4j.DocumentException: /Users/4paradigm/Desktop/BTVSOP_4688794_BTVBK_smp_18533797-144970555-1-9-69568154-1-11.xml (No such file or directory)
+2021-09-07 21:40:49 [task-1] [ERROR] 未同步成功

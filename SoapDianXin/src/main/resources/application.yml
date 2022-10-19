@@ -1,0 +1,78 @@
+server:
+  port: 8087 #tomcat端口号
+  servlet:
+    context-path: /SOAP #应用名，必须以/开头
+
+######   ehcache
+spring:
+  cache:
+    ehcache:
+      config: classpath:ehcache.xml
+
+CSPID: DXSOP
+LSPID: DXDS
+## kafka
+#一次最多发送数据量
+kafka.producer.batch-size: 16785
+#发送失败后的重复发送次数
+kafka.producer.retries: 1
+  #32M批处理缓冲区
+kafka.producer.buffer-memory: 33554432
+kafka.producer.linger: 1
+kafka:
+  producer:
+    bootstrap-servers: 172.25.3.113:9097,172.25.3.114:9097,172.25.3.115:9097
+spring.kafka.bootstrap-servers: 172.25.3.113:9097,172.25.3.114:9097,172.25.3.115:9097
+spring.kafka.consumer.enable-auto-commit: false
+spring.kafka.consumer.group-id: topictelecom
+spring.kafka.consumer.auto-offset-reset: latest
+spring.kafka.consumer.max-poll-records: 100
+spring.kafka.consumer.topic: topiciptvtelecom
+spring.kafka.consumer.topic2: topicmappingtelecom
+
+
+
+
+#server:
+#  port: 8081 #tomcat端口号
+#  servlet:
+#    context-path: /SOAP #应用名，必须以/开头
+#
+#######   ehcache
+#spring:
+#  cache:
+#    ehcache:
+#      config: classpath:ehcache.xml
+#
+#CSPID: LTSOP
+#LSPID: LTDS
+### kafka
+##一次最多发送数据量
+#kafka.producer.batch-size: 16785
+##发送失败后的重复发送次数
+#kafka.producer.retries: 1
+#  #32M批处理缓冲区
+#kafka.producer.buffer-memory: 33554432
+#kafka.producer.linger: 1
+#spring.kafka.bootstrap-servers: 192.168.1.12:9092
+#spring.kafka.consumer.enable-auto-commit: false
+#spring.kafka.consumer.group-id: g1
+#spring.kafka.consumer.auto-offset-reset: latest
+#spring.kafka.consumer.max-poll-records: 100
+#spring.kafka.consumer.topic: topicf
+#kafka:
+#  producer:
+#    bootstrap-servers: 192.168.1.13:9092
+##--------------自定义参数
+##修改es的code
+updatees: http://172.25.3.110:9200/business_15_itemset_139_item/_update/
+##删除es的code
+deletees: http://172.25.3.110:9200/business_15_itemset_139_item/_delete_by_query
+##保底重启
+##上报数据
+insertcess: http://172.25.3.107:30000/cess-data-15/data/api/data-access/15/139/items
+
+wuliaoid: 139
+
+
+
