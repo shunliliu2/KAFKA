@@ -1,0 +1,64 @@
+server:
+  port: 9020 #tomcat端口号
+  servlet:
+    context-path: /APK #应用名，必须以/开头
+  tomcat:
+    max-threads: 500
+    max-connections: 10000
+###  FTP
+
+
+kaiguan: 1
+
+
+
+
+##kafka相关配置
+spring.kafka.bootstrap-servers: 172.25.3.113:9097,172.25.3.114:9097,172.25.3.115:9097
+spring.kafka.consumer.enable-auto-commit: false
+spring.kafka.consumer.group-id: ph15
+spring.kafka.consumer.auto-offset-reset: latest
+spring.kafka.consumer.max-poll-records: 100
+spring.kafka.consumer.topic: PageHome49
+
+
+
+# 设置批量消费
+spring.kafka.listener.type: batch
+# 批量消费每次最多消费多少条消息
+
+
+spring:
+  kafka:
+    listener:
+      concurrency=6:
+  main:
+    allow-bean-definition-overriding=true:
+
+
+
+
+## tomcat最大线程数，默认为200
+#
+#server.tomcat.max-threads =200
+#
+#
+#  # tomcat最大连接数，默认为10000(网上的说法)
+#
+#server.tomcat.max-connections=300
+
+##------------自定义参数
+##请求推荐场景的地址
+url: http://210.13.21.155:80/api/v0/recom/recall?sceneID=61
+url2: http://172.25.3.110:9200/business_13_itemset_121_item/_search?_source=title,content,duration&pretty
+
+
+
+##---------------------自定义参数
+##场景id
+SceneId: 53
+##物料ID
+ItemSetId: 121
+
+
+
