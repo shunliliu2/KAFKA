@@ -1,3 +1,0 @@
-2021-09-24 15:54:14 [http-nio-8081-exec-3] [ERROR] CSPID和LSPID不正确
-2021-09-24 15:54:55 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [ERROR] oooooooo
-2021-09-24 15:57:28 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [ERROR] oooooooo

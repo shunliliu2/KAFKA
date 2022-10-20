@@ -1,7 +1,0 @@
-2021-09-25 14:06:50 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [INFO] Shutting down ExecutorService
-2021-09-25 14:06:50 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] [INFO] Shutting down ExecutorService
-2021-09-25 14:06:50 [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] [INFO] Shutting down ExecutorService
-2021-09-25 14:06:50 [org.springframework.kafka.KafkaListenerEndpointContainer#0-1-C-1] [INFO] Consumer stopped
-2021-09-25 14:06:50 [org.springframework.kafka.KafkaListenerEndpointContainer#0-2-C-1] [INFO] Consumer stopped
-2021-09-25 14:06:50 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [INFO] Consumer stopped
-2021-09-25 14:06:50 [Thread-68] [INFO] Shutting down ExecutorService 'applicationTaskExecutor'
