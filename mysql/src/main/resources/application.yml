@@ -1,7 +1,0 @@
-server:
-  port: 8089 #tomcat端口号
-  servlet:
-    context-path: /mysql #应用名，必须以/开头
-
-
-
